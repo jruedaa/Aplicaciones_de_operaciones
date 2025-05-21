@@ -1,1 +1,1 @@
-# Aplicaciones-de-operaciones
+# Aplicaciones de operaciones
