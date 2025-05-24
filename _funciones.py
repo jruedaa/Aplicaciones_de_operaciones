@@ -4,8 +4,7 @@ from os import listdir
 from os.path import join
 import cv2
 from tqdm import tqdm
-import keras_tuner as kt
-import tensorflow as tf
+
 
 ### Funcion para cargar imágenes y etiquetas
 def load_images(path, width=120):
