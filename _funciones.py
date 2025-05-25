@@ -20,9 +20,9 @@ def load_images(path, width=120):
             img = cv2.resize(img, (width, width))  # redimensionar imagen
             rawImgs.append(img)  # agregar imagen a la lista
             l = path.split('/')[-1]  # obtener nombre de carpeta para etiqueta
-            if l == 'benign':  # si es benign, etiqueta 1
-                labels.append([1])
-            else:  # si no, etiqueta 0
+            if l == 'benign':  # si es benign, etiqueta 0
                 labels.append([0])
+            else:  # si no, etiqueta 1
+                labels.append([1])
     return rawImgs, labels, files_list  # retornar imágenes, etiquetas y lista de archivos
 
