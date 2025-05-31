@@ -2,3 +2,5 @@ __pycache__
 Salidas/X_train.pkl
 X_train.pkl
 __pycache__
+best_cnn_optuna.keras
+Salidas/best_cnn_optuna.keras
